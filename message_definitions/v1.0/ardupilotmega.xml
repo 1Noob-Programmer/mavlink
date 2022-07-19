@@ -1762,5 +1762,11 @@
       <field type="uint16_t" name="MCU_voltage_min" units="mV">MCU voltage minimum</field>
       <field type="uint16_t" name="MCU_voltage_max" units="mV">MCU voltage maximum</field>
     </message>
+    <!-- MG -->
+    <message id="11040" name="LM35DT_TEMP_SENSOR">
+      <description>Gives temperature sensor w.r.t Voltage (T = Vout/10)</description>
+      <field type="float" name="temperature" instance="true">Temperature</field>
+    </message>
+    <!-- MG -->    
   </messages>
 </mavlink>
